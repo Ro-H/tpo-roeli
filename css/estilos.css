@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: rgb(236, 217, 220);
+  font-family: 'Lato', sans-serif
+}
+
+
+
+p{
+    text-align: center;
+}
+
+h2{
+text-align: center;
+}
+
+img{
+  display:block;
+  margin:auto;
+  }
+  
+
+header {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.nav {
+  background-color: rgb(204, 122, 135);
+  color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;    
+   
+}
+
+.image-contact {
+  background-image: url("../images/andrijana-bozic-p8DWps55d8I-unsplash.png");
+background-size: cover;
+
+}
+.my-4{
+  color:rgb(114, 0, 53);
+}
+
+.btn:hover{
+background-color:rgb(228, 186, 192);
+}
+
+footer{
+  background-color: rgb(204, 122, 135);
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.redes{
+  width: fit-content;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+i{
+  color: rgb(114, 0, 53);
+font-size: 25px;
+}
+
+  .caja {
+    width: 500px;
+  float: left;
+  }
+  .caja1 {
+    width: 500px;
+  float: left;
+  }
+   .caja1 {
+    width: 500px;
+  float: left;
+  }
+
+  .sobremi {
+width: 700px;
+margin-left: auto;
+margin-right: auto;}
+
+
+html,
+body,
+.intro {
+  height: 100%;
+}
+
+@media (min-width: 550px) and (max-width: 750px) {
+  html,
+  body,
+  .intro {
+    height: 750px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  .intro {
+    height: 750px;
+  }
+}
+
+.mask-custom {
+  backdrop-filter: blur(15px);
+  background-color: rgba(255,255,255,.2);
+  border-radius: 3em;
+  border: 2px solid rgba(255,255,255,.1);
+  background-clip: padding-box;
+  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+}
+
+
+
+
+
+
